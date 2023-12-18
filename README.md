@@ -69,3 +69,16 @@ AdaRetrieval/output/
 
 
 This framework includes 5 basic sequential recommender models: GRU4Rec, SASRec, NextItNet, SRGNN, FMLPRec.
+
+# Acknowledgement
+Any scientific publications that use our codes and datasets should cite the following paper as the reference:
+```
+@inproceedings{Fan-SIGIR-2022,
+    title  = {Ada-Retrieval: An Adaptive Multi-Round Retrieval Paradigm for Sequential Recommendations},
+    author = {XX},
+    booktitle = {XX},
+    year = {2023},
+    publisher = {{XX}},
+    doi       = {XX}
+}
+```
