@@ -1,0 +1,9 @@
+embedding_size: 64
+kernel_size: 3
+block_num: 5
+dilations: [1,4]
+reg_weight: 1e-5
+init_method: 'xavier_uniform'
+hidden_dropout_prob: 0.5
+hidden_act: 'swish'
+layer_norm_eps: 1e-10

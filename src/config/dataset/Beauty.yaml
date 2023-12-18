@@ -1,0 +1,6 @@
+n_items: 12102
+n_users: 22364
+test_file_format: user-item
+train_file_format: user-item_seq
+user_history_file_format: user-item_seq
+valid_file_format: user-item

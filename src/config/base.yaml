@@ -1,0 +1,38 @@
+
+## general
+gpu_id: 0
+use_gpu: True
+seed: 366849
+state: INFO
+verbose: 2
+saved: True   # whether to save models
+
+## for general model settings
+has_item_bias: False
+
+## training settings
+epochs: 200
+batch_size: 400
+learning_rate: 0.001
+
+## for optimizer
+eval_step: 1
+early_stop: 5
+clip_grad_norm: ~
+weight_decay: 0.0
+
+## for dataloader
+num_workers: 4 # # of sub processes in DataLoader
+persistent_workers: False
+pin_memory: False
+shuffle_train: False
+
+metrics: "['hit@50;100', 'ndcg@50;100']"
+key_metric: "hit@50"
+test_protocol: one_vs_all
+valid_protocol: one_vs_all
+test_batch_size: 100
+
+model: 'SASRec'
+max_seq_len: 50
+dropout_prob: 0.0
