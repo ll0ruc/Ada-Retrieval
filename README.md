@@ -1,7 +1,7 @@
 # Ada-Retrieval
 
 This is our PyTorch implementation for Ada-Retrieval: An Adaptive Multi-Round Retrieval Paradigm for Sequential
-Recommendations
+Recommendations. This project is developed based on [UniRec](https://github.com/microsoft/unirec).
 
 # Requirements
 Environments:
