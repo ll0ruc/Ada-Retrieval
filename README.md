@@ -1,7 +1,7 @@
 # Ada-Retrieval
 
 This is our PyTorch implementation for Ada-Retrieval: An Adaptive Multi-Round Retrieval Paradigm for Sequential
-Recommendations. This project is developed based on [UniRec](https://github.com/microsoft/unirec).
+Recommendations. This project is developed based on [UniRec](https://github.com/microsoft/unirec)
 
 # Requirements
 Environments:
@@ -23,7 +23,7 @@ We have placed the processed Beauty data in the /data/Beauty directory.
 > preprocess/
 
 You can also use the pipeline in `preprocess/` to generate the processed dataset automatically. This pipeline includes:
-- downloading the Beauty/Sports/Yelp dataset from https://github.com/Woeee/FMLP-Rec
+- downloading the Beauty/Sports/Yelp dataset from [FMLP-Rec](https://github.com/Woeee/FMLP-Rec)
 - modify the corresponding parameters about data in prepare_data.py.
 - python prepare_data.py
 
