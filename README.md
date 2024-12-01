@@ -1,7 +1,7 @@
 # Ada-Retrieval
 
 This is our PyTorch implementation for Ada-Retrieval: An Adaptive Multi-Round Retrieval Paradigm for Sequential
-Recommendations. This project is developed based on [UniRec](https://github.com/microsoft/unirec)
+Recommendations (accepted in [AAAI2024](https://ojs.aaai.org/index.php/AAAI/article/view/28712)). This project is developed based on [UniRec](https://github.com/microsoft/unirec)
 
 # Requirements
 Environments:
@@ -73,12 +73,13 @@ This framework includes 5 basic sequential recommender models: GRU4Rec, SASRec, 
 # Acknowledgement
 Any scientific publications that use our codes and datasets should cite the following paper as the reference:
 ```
-@inproceedings{XXX,
-    title  = {Ada-Retrieval: An Adaptive Multi-Round Retrieval Paradigm for Sequential Recommendations},
-    author = {XX},
-    booktitle = {XX},
-    year = {2023},
-    publisher = {{XX}},
-    doi       = {XX}
+@inproceedings{li2024ada,
+  title={Ada-Retrieval: An Adaptive Multi-Round Retrieval Paradigm for Sequential Recommendations},
+  author={Li, Lei and Lian, Jianxun and Zhou, Xiao and Xie, Xing},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={8},
+  pages={8670--8678},
+  year={2024}
 }
 ```
